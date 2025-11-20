@@ -1,16 +1,99 @@
-# React + Vite
+🚀 Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based clone of Google Gemini AI, offering conversational AI functionality using the Google Gemini API. This project recreates a clean, minimal, chatbot interface with smooth animations and real-time responses.
 
-Currently, two official plugins are available:
+📑 Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Introduction
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Core Features
 
-## Expanding the ESLint configuration
+Additional Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Potential Enhancements
+
+Tech Stack
+
+Installation
+
+Environment Variables
+
+Project Structure
+
+🧠 Introduction
+
+Gemini Clone is a simple yet powerful React application designed to replicate the functionality of Google's Gemini chatbot. It allows users to input queries and receive intelligent responses through the Google Gemini API, with a smooth UI and typing animations to simulate a real chat experience.
+
+✨ Features
+🔹 Core Features
+
+Interactive Chat Interface
+A clean UI that allows real-time conversation with the Gemini model.
+
+Typing Animation
+Simulates natural typing to enhance user experience.
+
+Gemini API Integration
+Fully connected to the Google Gemini API for real conversational responses.
+
+🔹 Additional Features
+
+React-based Architecture
+Component-driven, scalable frontend.
+
+Custom Styling with CSS
+Clean and modern design for better usability.
+
+🔹 Potential Enhancements
+
+Conversation History
+Store and display previous chats.
+
+Advanced UI Elements
+Emojis, markdown responses, avatars, message reactions.
+
+Extra AI Features
+Image input, translation, or voice support.
+
+🛠 Tech Stack
+
+React.js
+
+Vite
+
+CSS
+
+Google Gemini API
+
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/gemini-clone.git
+cd gemini-clone
+
+Install dependencies:
+
+npm install
+
+Run the app:
+
+npm run dev
+
+🔐 Environment Variables
+
+Create a .env file in the project root:
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+📂 Project Structure
+src/
+├── components/
+│ ├── ChatBox.jsx
+│ ├── Message.jsx
+│ └── Loader.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
